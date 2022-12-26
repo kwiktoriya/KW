@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KW</string>
+    <string name="hint_PIN">Enter the PIN</string>
+    <string name="hint_user">Enter the name</string>
+    <string name="Error">Invalid PIN</string>
+    <string name="Close">Close</string>
+    <string name="Successful">Successful PIN</string>
+    <string name="hint_CreatePIN">Create the PIN</string>
+    <string name="hint_Createuser">Create the PIN</string>
+</resources>

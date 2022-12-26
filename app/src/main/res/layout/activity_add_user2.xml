@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddUserActivity2" >
+
+    <TextView
+        android:id="@+id/Error_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/Error"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/enterethepin"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="@string/hint_Createuser"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/enterethepin"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="@string/hint_CreatePIN"
+        android:textSize="24sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:text="1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="2"
+            android:layout_marginRight="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="157dp"  />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="3"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="157dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button41"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="4"
+            android:layout_marginRight="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="252dp" />
+
+        <Button
+            android:id="@+id/button51"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="5"
+            android:layout_marginRight="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="252dp" />
+
+        <Button
+            android:id="@+id/button61"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="6"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="252dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button71"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="7"
+            android:layout_marginRight="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <Button
+            android:id="@+id/button81"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="8"
+            android:layout_marginRight="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <Button
+            android:id="@+id/button91"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="9"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonStar1"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="*"
+            android:layout_marginRight="10dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="0"
+            android:layout_marginRight="10dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonReshotk1"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:text="#"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="440dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCreate"
+            android:layout_width="189dp"
+            android:layout_height="44dp"
+            android:text="create"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="580dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDelete1"
+            android:layout_width="189dp"
+            android:layout_height="44dp"
+            android:text="Delete"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="536dp" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
